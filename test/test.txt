@@ -1,0 +1,14 @@
+ildc 20
+ildc 5
+here: 
+      here1:
+            here2: ildc 1
+                  isub
+                  dup
+                  jz   there
+                  swap
+                  ildc 10
+                  iadd
+                  swap
+                  jmp  here
+there : pop
